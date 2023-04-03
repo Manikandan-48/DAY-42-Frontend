@@ -1,0 +1,117 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #53adb9;
+  width: 499px;
+  margin: 49px auto;
+  padding: 11px;
+  border-radius: 9px;
+}
+
+
+.App h1{
+  text-align: center;
+}
+
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 11px
+}
+
+
+.form input[type="text"]{
+  padding:11px;
+  width: 85%;
+  border: 1px solid #a3922e;
+  border-radius: 5px;
+}
+
+
+.form input[type="text"]:focus,
+.form button[type="submit"]:focus{
+  outline:none;
+}
+
+
+.form button[type="submit"]{
+  background-color: #9f35a8;
+  color: #2b2daa;
+  border: none;
+  border-radius: 5px;
+  padding: 11px;
+  cursor: pointer
+}
+
+
+.todo-listItems{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.todo-item{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 11px
+}
+
+
+.item-content{
+  width: 60%
+}
+
+
+.todo-item button{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 9px
+}
+
+
+.todo-item button:focus{
+  outline:none
+}
+
+
+
+.update-item{
+  background-color: rgb(189, 144, 20);
+  color:#fff;
+}
+
+
+.delete-item{
+  background-color: red;
+  color:#fff;
+}
+
+
+.update-form{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.update-new-input{
+  width: 80%;
+  border-radius: 5px;
+  border: 2px solid #eee;
+  padding: 7px;
+  outline: none;
+}
+
+
+.update-new-btn{
+  background-color: rgb(206, 91, 38);
+  color: #fff;
+  cursor: pointer;
+}
